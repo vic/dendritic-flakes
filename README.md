@@ -22,7 +22,7 @@ For the purpose of this repo, a framework is considered Dendritic if it allows:
 
 - All top-level files are nix modules of the same `class`.
 - Allows each top-level module to configure a **cross-cutting concern** over several Nix `class`es.
-- Allows organizing top-level modules in a way that serves as a mind-map of usability concerns. 
+- Allows factoring top-level modules in a way that serves as a mind-map of usability concerns. 
 
 Not necessarily required to be considered Dendritic.
 
@@ -32,7 +32,8 @@ Not necessarily required to be considered Dendritic.
 ## Examples
 
 The following is the planned list of libs/frameworks that allow to implement the Dendritic pattern.
-Feel free to send other implementations or candidate suggestions. Some will be removed it it is not
+
+Feel free to send PR for implementations or framework suggestions. Some will be removed it it is not
 possible for configurations to be considered Dendritic.
 
 - [flake-parts](https://flake.parts) [branch:TODO]
